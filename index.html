@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="bg-white text-black sm:flex">
+            <div class="container mx-auto p-2 flex justify-between items-center">
+                <span class="font-bold text-md">Portfolio</span>
+                <span class="p-2 sm:hidden" id="btn01"><i class="fa fa-bars text-md"></i></span>
+            </div>
+            <ul class="text-center font-bold text-md sm:flex sm:space-x-3 mr-3 hidden" id="btn02">
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Home</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">About</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Project</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container mx-auto p-2 text-center sm:flex sm:justify-between sm:items-center">
+            <div class="about text-center mt-16">
+                <p class="sm:text-left text-4xl sm:my-1 font-bold m-3">HELLO I'M <br><span class="text-[#df41d2] font-bold">SUKANTA MALIK</span></p>
+                <p class="font-bold text-md sm:text-left m-3">I am Fullstack Web Developer</p>
+                <div class="button sm:flex sm:space-x-5 sm:mt-5 m-3">
+                    <a href="#" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400"><i class="fa fa-download"></i> Download CV</a>
+                    <a href="#" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400"><i class="fa fa-briefcase"></i> Hire Me </a>
+                </div>
+                <div class="social-media sm:space-x-5 space-x-5 mt-5 sm:text-left sm:ml-3">
+                    <a class="border-solid border-2 rounded-lg hover:bg-[#0072b1] hover:text-white p-2"><i class="fa fa-linkedin"></i></a>
+                    <a class="border-solid border-2 rounded-lg hover:bg-black hover:text-white p-2"><i class="fa fa-github"></i></a>
+                    <a class="border-solid border-2 rounded-lg hover:bg-blue-900 hover:text-white p-2"><i class="fa fa-facebook"></i></a>
+                    <a class="border-solid border-2 rounded-lg hover:bg-[#fa7e1e] hover:text-white p-2"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="sm:w-[45rem] sm:bg-right mt-3">
+                    <img src="hero.jpg" alt="" srcset="">
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto sm:flex sm:justify-between shadow-xl rounded-3xl py-3">
+            <div class="about p-3">
+                <h1 class="text-2xl font-extrabold sm:text-center mt-5 text-center">~My Details~</h1>
+                <span class="sm:w-9 text-center sm:text-left italic">As a computer science enthusiast, I hold a Diploma in Computer Science and Technology from KG Engineering Institute and
+                I am currently pursuing a B.Tech degree in Computer Science Engineering from Mallabhum Institute of Technology. Including my hobbies are:
+                </span>
+                <div class="hobby-section mt-2 sm:mt-4">
+                    <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">Listening Song</span>
+                    <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">Research</span>
+                    <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">Study</span>
+                </div>
+            </div>
+            <div class="about_image sm:bg-right sm:w-[24rem] sm:border-none text-center border-2 border-solid rounded-3xl m-5">
+                <img class="sm:object-cover sm:w-full bg:center rounded-3xl" src="my.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto p-5 mt-5 rounded-3xl border-2 border-solid sm:flex sm:justify-between shadow-xl">
+            <div class="education_image">
+                <img src="education.jpg" class="rounded-3xl sm:bg-left sm:max-w-full sm:h-40" alt="" srcset="">
+            </div>
+            <div class="education">
+                <h1 class="font-bold text-2xl text-center">~Education~</h1>
+                <div class="grid grid-cols-3 gap-4 mt-3">
+                    <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                        Higher Secondary
+                    </div>
+                    <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                        Diploma
+                    </div>
+                    <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                        B.Tech
+                    </div>
+                    <div class="marks text-center font-bold">75%</div>
+                    <div class="marks text-center font-bold">9.0</div>
+                    <div class="marks text-center font-bold">7.285</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto mt-5 rounded-3xl border-2 border-solid shadow-xl p-5">
+            <h1 class="font-bold text-2xl text-center">~Projects~</h1>
+            <div class="project sm:flex sm:justify-between">
+                <div class="aspect-w-16 aspect-h-9 ml-8">
+                    <iframe src="https://www.youtube.com/embed/stNnNjM-Rhk" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="desc mx-2 text-center">
+                    <h1 class="font-bold text-lg text-center">Online Tutorial Website</h1>
+                    <p class="italic text-center sm:text-left">I am delighted to share my latest project, the development of a comprehensive digital e-learning website. Leveraging my
+                    expertise in Python (Django), HTML, JavaScript, Bootstrap, and MySQL, I have created an interactive platform designed to
+                    enhance the learning experience for students and professionals.</p>
+                    <div class="mt-5">
+                        <a href="#" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400 mt-5"><i
+                                class="fa fa-github"></i> Github</a>
+                    </div>            
+                    <div class="technology">
+                        <p class="italic mt-5">Used Technology:</p>
+                        <div class="mt-5 gap-y-6">
+                            <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">Django</span>
+                            <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">Python</span>
+                            <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white">JavaScript</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container p-5 mt-5 mx-auto border-2 shadow-xl border-solid rounded-3xl sm:flex sm:justify-between">
+            <div class="skill mt-1">
+                <h1 class="font-bold text-2xl text-center">~Skills~</h1>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Django</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Python</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">JavaScript</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Data Structures</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">DBMS</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Github</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Git</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Mysql</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">MongoDB</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">REST API</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Linux</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Python</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Java</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">C Programming</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">CPP</span>
+                <span class="px-3 py-2 border-2 border-solid rounded-3xl bg-black hover:bg-slate-500 text-white inline-flex">Software Engineering</span>
+                
+            </div>
+            <div class="image mt-3">
+                <img src="skill.jpg" class="rounded-3xl sm:bg-left sm:max-w-full sm:h-56" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto p-5 mt-5 border-2 border-solid rounded-3xl shadow-xl">
+            <h1 class="font-bold text-2xl text-center">~Certificate~</h1>
+            <div class="certificate grid grid-cols-3 gap-4 mt-3 text-center">
+                <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                    Name
+                </div>
+                <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                    Platform
+                </div>
+                <div class="px-3 py-2 bg-[#304cad] text-center font-bold rounded-2xl text-white">
+                    Show Details
+                </div>
+                <div class="marks text-center font-bold">Stock Market Analysis</div>
+                <div class="marks text-center font-bold">Elearnmarkets</div>
+                <div class="sm:text-center">
+                    <a href="#" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400 mt-5"><i
+                            class="fa fa-mouse-pointer"></i> Show</a>
+                </div>
+                <div class="marks text-center font-bold">Stock Market Analysis</div>
+                <div class="marks text-center font-bold">Elearnmarkets</div>
+                <div class="sm:text-center">
+                    <a href="#" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400 mt-5"><i
+                            class="fa fa-mouse-pointer"></i> Show</a>
+                </div>
+            </div>
+    </section>
+    <footer class="bg-black text-white font-bold text-center mt-5">
+        <div class="container mx-auto p-5">
+        <div class="social-media sm:space-x-5 space-x-5 mt-9 sm:text-center sm:ml-3">
+            <a class="border-solid border-2 rounded-lg hover:bg-[#0072b1] hover:text-white p-2"><i
+                    class="fa fa-linkedin"></i></a>
+            <a class="border-solid border-2 rounded-lg hover:bg-white hover:text-black p-2"><i class="fa fa-github"></i></a>
+            <a class="border-solid border-2 rounded-lg hover:bg-blue-900 hover:text-white p-2"><i
+                    class="fa fa-facebook"></i></a>
+            <a class="border-solid border-2 rounded-lg hover:bg-[#fa7e1e] hover:text-white p-2"><i
+                    class="fa fa-instagram"></i></a>
+        </div>
+        <div class="info mt-5">
+            Made By Sukanta Malik v1.0.0
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
