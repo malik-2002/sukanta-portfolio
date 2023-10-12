@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
-<body>
+<body class="font-[League Spartan]">
     <header>
         <nav class="bg-white text-black sm:flex">
             <div class="container mx-auto p-2 flex justify-between items-center">
-                <span class="font-bold text-md">Portfolio</span>
+                <span class="font-bold text-2xl"><a href="/">Portfolio</a></span>
                 <span class="p-2 sm:hidden" id="btn01"><i class="fa fa-bars text-md"></i></span>
             </div>
             <ul class="text-center font-bold text-md sm:flex sm:space-x-3 mr-3 hidden" id="btn02">
-                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Home</a></li>
-                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">About</a></li>
-                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Project</a></li>
-                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#">Contact</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl flex justify-center sm:items-center space-x-1"><i class="fa fa-home text-xl"></i><a href="#">Home</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#about">About</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#education">Study</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#project">Project</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#skill">Skill</a></li>
+                <li class="p-3 hover:bg-black hover:text-white rounded-xl"><a href="#certificate">Certificate</a></li>
             </ul>
         </nav>
     </header>
@@ -44,7 +49,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="about">
         <div class="container mx-auto sm:flex sm:justify-between shadow-xl rounded-3xl py-3">
             <div class="about p-3">
                 <h1 class="text-2xl font-extrabold sm:text-center mt-5 text-center">~My Details~</h1>
@@ -62,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="education">
         <div class="container mx-auto p-5 mt-5 rounded-3xl border-2 border-solid sm:flex sm:justify-between shadow-xl">
             <div class="education_image">
                 <img src="education.jpg" class="rounded-3xl sm:bg-left sm:max-w-full sm:h-40" alt="" srcset="">
@@ -86,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="project">
         <div class="container mx-auto mt-5 rounded-3xl border-2 border-solid shadow-xl p-5">
             <h1 class="font-bold text-2xl text-center">~Projects~</h1>
             <div class="project sm:flex sm:justify-between">
@@ -117,7 +122,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="skill">
         <div class="container p-5 mt-5 mx-auto border-2 shadow-xl border-solid rounded-3xl sm:flex sm:justify-between">
             <div class="skill mt-1">
                 <h1 class="font-bold text-2xl text-center">~Skills~</h1>
@@ -144,7 +149,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="certificate">
         <div class="container mx-auto p-5 mt-5 border-2 border-solid rounded-3xl shadow-xl">
             <h1 class="font-bold text-2xl text-center">~Certificate~</h1>
             <div class="certificate grid grid-cols-3 gap-4 mt-3 text-center">
