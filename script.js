@@ -8,3 +8,14 @@ var hire=document.getElementById('hire');
 hire.addEventListener("click",()=>{
     alert("Email: sukantamalik2002@gmail.com")
 })
+
+var typed = new Typed('#element', {
+    strings: ['Sukanta Malik','Fullstack Web Developer'],
+    typeSpeed: 130,
+    backSpeed: 130,
+    loop: true
+});
+AOS.init({
+    offset:200,
+    duration:1000,
+});

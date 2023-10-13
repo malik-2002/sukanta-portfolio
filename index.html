@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
 </head>
 <body class="font-[League Spartan]">
@@ -30,7 +33,7 @@
     <section>
         <div class="container mx-auto p-2 text-center sm:flex sm:justify-between sm:items-center">
             <div class="about text-center mt-16">
-                <p class="sm:text-left text-4xl sm:my-1 font-bold m-3">HELLO I'M <br><span class="text-[#df41d2] font-bold" id="auto-type">SUKANTA MALIK</span></p>
+                <p class="sm:text-left text-4xl sm:my-1 font-bold m-3">HELLO I'M <br><span class="text-[#df41d2] font-bold" id="element"></span></p>
                 <p class="font-bold text-md sm:text-left m-3">I am Fullstack Web Developer</p>
                 <div class="button sm:flex sm:space-x-5 sm:mt-5 m-3">
                     <a href="https://drive.google.com/uc?export=download&id=1NZk0vHlIDipIdUtASD7aC9qOsu_Om1FR" class="px-3 py-2 bg-[#304cad] text-white font-bold rounded-lg hover:bg-slate-400"><i class="fa fa-download"></i> Download CV</a>
@@ -49,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" data-aos="slide-up">
         <div class="container mx-auto sm:flex sm:justify-between shadow-xl rounded-3xl py-3">
             <div class="about p-3">
                 <h1 class="text-2xl font-extrabold sm:text-center mt-5 text-center">~My Details~</h1>
@@ -67,7 +70,7 @@
             </div>
         </div>
     </section>
-    <section id="education">
+    <section id="education" data-aos="slide-up">
         <div class="container mx-auto p-5 mt-5 rounded-3xl border-2 border-solid sm:flex sm:justify-between shadow-xl">
             <div class="education_image">
                 <img src="education.jpg" class="rounded-3xl sm:bg-left sm:max-w-full sm:h-40" alt="" srcset="">
@@ -91,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section id="project">
+    <section id="project" data-aos="slide-up">
         <div class="container mx-auto mt-5 rounded-3xl border-2 border-solid shadow-xl p-5">
             <h1 class="font-bold text-2xl text-center">~Projects~</h1>
             <div class="project sm:flex sm:justify-between">
@@ -122,7 +125,7 @@
             </div>
         </div>
     </section>
-    <section id="skill">
+    <section id="skill" data-aos="slide-up">
         <div class="container p-5 mt-5 mx-auto border-2 shadow-xl border-solid rounded-3xl sm:flex sm:justify-between">
             <div class="skill mt-1">
                 <h1 class="font-bold text-2xl text-center">~Skills~</h1>
@@ -149,7 +152,7 @@
             </div>
         </div>
     </section>
-    <section id="certificate">
+    <section id="certificate" data-aos="slide-up">
         <div class="container mx-auto p-5 mt-5 border-2 border-solid rounded-3xl shadow-xl">
             <h1 class="font-bold text-2xl text-center">~Certificate~</h1>
             <div class="certificate grid grid-cols-3 gap-4 mt-3 text-center">
